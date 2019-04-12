@@ -53,5 +53,6 @@ type User{
   inOrg: Boolean!
   permissions: [Permission!]!
   cart: [CartItem!]!
+  orders: [OrderItem]
 }
 
