@@ -1,0 +1,80 @@
+html{
+    background-color: #f2f2f2;
+}
+.app{
+    color: black;
+    background-color: #f2f2f2;
+}
+.app-container{
+    padding: 1rem;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.section{
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+}
+.item{
+    margin: 1rem;
+    font-size: 1rem;
+}
+.item-image{
+    padding: 0rem;
+}
+.item-title{
+    font-size: 2rem;
+}
+.item-description{
+    font-size: 1rem;
+}
+.pricetag{
+    background: #5cb85c;
+    color: white;
+    transform:rotate(1deg);
+    align-content: left;
+    height: 3rem;
+    float: right;
+    margin-bottom: -2rem;
+    padding-right: 1rem;
+}
+.price{
+    float: center;
+    padding-left: 1rem;
+    font-size: 1.75rem;
+}
+.pagination{
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+.page{
+    align-content: center;
+    margin: 2rem;
+}
+.pageButton{
+    margin: 0rem;
+}
+.footer{
+    margin: 1rem;
+    padding: 1rem;
+    border-top: 1px solid black;
+    font-size: 1rem;
+    text-align: center;
+}
+.push-down{
+    padding-top: 2rem;
+}
